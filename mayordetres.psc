@@ -1,12 +1,15 @@
 Algoritmo mayordetres 
-	definir nu1,nu2,nu3 Como Entero
-	escribir"ingrse numero1 mayor"
-	leer nu1
-	Escribir"ingrese numero2 mayor"
-	leer nu2
-	Escribir"ingrese numero3 mayor"
-	leer nu3
-	sumar=nu1+nu2+nu3
-	Escribir"el resultado es"
-	
+	definir nodeasdo Como Real
+	escribir"esciriba el numeros que deas verificar mayo de 10,20,30"
+	leer numeronodeseado
+	si(numeronodeseado) > (10) Entonces
+		Escribir" el numero  es mayor 10" 
+		Leer numeronodeseado
+		si (numeronodeseado)> (20) Entonces
+			leer numeronodeseado
+			si (numeronodeseado)>(30) Entonces
+				Escribir"los numeros mayor a 20"
+			FinSi
+		FinSi
+	FinSi
 FinAlgoritmo
